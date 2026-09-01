@@ -1,4 +1,4 @@
-# Ryzenadj
+# RyzenAdj
 
 The config fixes the strange behavior of the mobile ryzen 5 2500u znver1, when the gpu load reaches the 100%, the cpu will be locked at 400 mhz.
 
