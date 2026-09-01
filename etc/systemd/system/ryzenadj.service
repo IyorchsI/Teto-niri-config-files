@@ -1,0 +1,11 @@
+[Unit]
+Description=RyzenAdj Power Management
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=ryzenadj --stapm-limit=25000 --fast-limit=25000 --slow-limit=20000 --tctl-temp=90 --vrm-current 35000
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
