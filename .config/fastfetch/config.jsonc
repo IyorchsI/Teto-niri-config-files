@@ -77,23 +77,12 @@
     {
       "type": "memory",
       "keyColor": "black",
-      "outputColor": "black",
-      "percent": {
-            "black": 20, // Shows result in green when the usage is less than 20%
-            "black": 50, // Shows result in yellow when the usage is between 20% and 50%
-                        // Shows result in red when the usage is greater than 50%
-        }
-
+      "outputColor": "black"
     },
     {
       "type": "swap",
       "keyColor": "black",
-      "outputColor": "black",
-      "percent": {
-            "black": 20, // Shows result in green when the usage is less than 20%
-            "black": 50, // Shows result in yellow when the usage is between 20% and 50%
-                        // Shows result in red when the usage is greater than 50%
-        }
+      "outputColor": "black"
     },
     {
       "type": "disk",
