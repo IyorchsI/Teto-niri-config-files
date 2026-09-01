@@ -277,7 +277,7 @@ spawn-at-startup "waybar"
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
 
-spawn-at-startup "swaybg" "-i" "/mnt/ssd/Tetofiles/Wallpaper/teto_guitar.jpg" "-m" "fill"
+spawn-at-startup "swaybg" "-i" "/mnt/ssd/tetofiles/Teto-niri-config-files/images/wallpaper/teto_guitar.jpg" "-m" "fill"
 spawn-at-startup "/usr/lib/mate-polkit/polkit-mate-authentication-agent-1"
 spawn-at-startup "nm-applet --indicator"
 spawn-at-startup "blueman-applet"
