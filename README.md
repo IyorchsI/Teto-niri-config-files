@@ -7,4 +7,4 @@ Waybar script: [gentoo waybar wiki](https://wiki.gentoo.org/wiki/Waybar#Applying
 
 ## Ryzen Adj 
 
-This is optional because it fixes an strange behavior with de [zenver1 mobile] (https://github.com/IyorchsI/Teto-niri-config-files/tree/main/etc/systemd/system).
+This is optional because it fixes an strange behavior with de [zenver1 mobile](https://github.com/IyorchsI/Teto-niri-config-files/tree/main/etc/systemd/system).
