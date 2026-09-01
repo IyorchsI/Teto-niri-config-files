@@ -373,6 +373,7 @@ window-rule {
 }
 window-rule {
     match app-id="kitty"
+    open-on-workspace "kitty"
     focus-ring {
         on
         width 2
@@ -406,6 +407,10 @@ window-rule {
 cursor {
     xcursor-theme "Kasane-Teto-Nokia"
     xcursor-size 24
+}
+
+workspace "kitty" {
+
 }
 
 binds {
