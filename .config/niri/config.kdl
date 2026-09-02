@@ -313,13 +313,6 @@ animations {
     // slowdown 3.0
 }
 
-workspace "kitty" {
-
-}
-workspace "default" {
-
-}
-
 // Window rules let you adjust behavior for individual windows.
 // Find more information on the wiki:
 // https://niri-wm.github.io/niri/Configuration:-Window-Rules
@@ -344,9 +337,7 @@ window-rule {
     match is-active=false
     opacity 0.5
 }
-window-rule {
-    open-on-workspace "default"
-}
+
 window-rule {
     // This app-id regular expression will work for both:
     // - host Firefox (app-id is "firefox")
@@ -383,7 +374,6 @@ window-rule {
 }
 window-rule {
     match app-id="kitty"
-    open-on-workspace "kitty"
     focus-ring {
         on
         width 2

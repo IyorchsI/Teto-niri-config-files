@@ -57,8 +57,6 @@
         "format-icons": {
             // Named workspaces
             // (you need to configure them in niri)
-            "kitty": "",
-            "default": "",
             // Icons by state
             "active": "",
             "default": ""
