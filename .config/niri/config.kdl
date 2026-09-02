@@ -313,6 +313,13 @@ animations {
     // slowdown 3.0
 }
 
+workspace "kitty" {
+
+}
+workspace "default" {
+
+}
+
 // Window rules let you adjust behavior for individual windows.
 // Find more information on the wiki:
 // https://niri-wm.github.io/niri/Configuration:-Window-Rules
@@ -411,13 +418,6 @@ cursor {
     xcursor-size 24
 }
 
-workspace "kitty" {
-
-}
-workspace "default" {
-
-}
-
 binds {
     // Keys consist of modifiers separated by + signs, followed by an XKB key name
     // in the end. To find an XKB name for a particular key, you may use a program
@@ -450,8 +450,8 @@ binds {
     // "-l 1.0" limits the volume to 100%.
     XF86AudioRaiseVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05+ -l 1.0 && wpctl get-volume @DEFAULT_AUDIO_SINK@ | awk '{print int($2 * 100)}' > $XDG_RUNTIME_DIR/wob.sock"; }
     XF86AudioLowerVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05- && wpctl get-volume @DEFAULT_AUDIO_SINK@ | awk '{print int($2 * 100)}' > $XDG_RUNTIME_DIR/wob.sock"; }
-    XF86AudioMute        allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle && echo 0 > $XDG_RUNTIME_DIR/wob.sock"; }
-    XF86AudioMicMute     allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle && echo 0 > $XDG_RUNTIME_DIR/wob.sock"; }
+    XF86AudioMute        allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle && if wpctl get-volume @DEFAULT_AUDIO_SINK@ | grep -q 'MUTED'; then notify-send 'Audio Muted'; else notify-send 'Audio Unmuted'; fi"; }
+    XF86AudioMicMute     allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle && if wpctl get-volume @DEFAULT_AUDIO_SOURCE@ | grep -q 'MUTED'; then notify-send 'Mic Muted'; else notify-send 'Mic Unmuted'; fi"; }
 
     // Example media keys mapping using playerctl.
     // This will work with any MPRIS-enabled media player.
