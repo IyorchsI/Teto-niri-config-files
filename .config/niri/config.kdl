@@ -455,8 +455,8 @@ binds {
     XF86MonBrightnessUp allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "+10%"; }
     XF86MonBrightnessDown allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "10%-"; }
 
-    Mod+KP_Insert repeat=false { spawn-sh "niri msg output eDP-1 mode \"1280x720@60.030\""; }
-    Mod+KP_End repeat=false { spawn-sh "niri msg output eDP-1 mode \"1920x1080@120.030\"";}
+    Mod+KP_Insert hotkey-overlay-title="Change resolution to 720p" repeat=false { spawn-sh "niri msg output eDP-1 mode \"1280x720@60.030\""; }
+    Mod+KP_End hotkey-overlay-title="Change resolution to 1080p" repeat=false { spawn-sh "niri msg output eDP-1 mode \"1920x1080@120.030\"";}
 
     // Open/close the Overview: a zoomed-out view of workspaces and windows.
     // You can also move the mouse into the top-left hot corner,
