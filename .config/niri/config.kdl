@@ -403,7 +403,7 @@ window-rule {
 // Example: enable rounded corners for all windows.
 // (This example rule is commented out with a "/-" in front.)
 
-cursor {
+/-cursor {
     xcursor-theme "Kasane-Teto-Nokia"
     xcursor-size 24
 }
