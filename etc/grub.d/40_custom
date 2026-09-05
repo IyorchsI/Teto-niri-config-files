@@ -3,9 +3,10 @@ exec tail -n +3 $0
 # This file provides an easy way to add custom menu entries.  Simply type the
 # menu entries you want to add after this comment.  Be careful not to change
 # the 'exec tail' line above.
-menuentry "Secondary OS GRUB Menu (sdb1 EFI)" {
+menuentry "Secondary Boot efi" {
+    insmod part_gpt
     insmod search_fs_uuid
     insmod chain
-    search --no-floppy --fs-uuid --set=root 2231-29DE
-    chainloader ($root)/EFI/GRUB/grubx64.efi
+    search --no-floppy --fs-uuid --set=root 96AE-A486
+    chainloader ($root)/EFI/Boot/Bootx64.efi
 }
