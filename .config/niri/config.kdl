@@ -365,9 +365,9 @@ window-rule {
 }
 window-rule {
     match app-id="mpv"
-    //open-maximized true
+    open-maximized true
     //open-floating true
-    open-maximized-to-edges true
+    //open-maximized-to-edges true
     opacity 1.0
 }
 window-rule {
