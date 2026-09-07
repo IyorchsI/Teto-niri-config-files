@@ -1,0 +1,28 @@
+[General]
+background=/mnt/ssd/tetofiles/Teto-niri-config-files/images/sddm/teto_1.jpg
+
+ScreenWidth="1280"
+
+ScreenHeight="720"
+
+## [Blur Settings]
+
+PartialBlur="true"
+
+BlurRadius="20"
+
+## [Design customisations]
+
+MainColour="#000000"
+
+AccentColour="#f58d8c"
+
+BackgroundColour="#000000"
+
+## [Interface Behavior]
+
+ForceHideCompletePassword="true"
+
+## [Translations]
+
+HeaderText="Teto Teto"
