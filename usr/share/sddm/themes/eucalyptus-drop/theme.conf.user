@@ -23,6 +23,8 @@ BackgroundColour="#000000"
 
 ForceHideCompletePassword="true"
 
+AllowBadUsernames="true"
+
 ## [Translations]
 
 HeaderText="Teto Teto"
