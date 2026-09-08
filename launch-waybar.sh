@@ -1,5 +1,5 @@
 #!/bin/bash
-CONFIG_FILES="/etc/xdg/waybar/config.jsonc /etc/xdg/waybar/style.css"
+CONFIG_FILES="$HOME/.config/waybar/config.jsonc $HOME/.config/waybar/style.css"
 trap "killall waybar" EXIT
 while true; do
     waybar &
