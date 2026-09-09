@@ -5,7 +5,7 @@ font_family      family='MartianMono Nerd Font' postscript_name=MartianMonoNF-Bo
 bold_font        family='MartianMono Nerd Font' postscript_name=MartianMonoNF-Bold
 italic_font      auto
 bold_italic_font auto
-font_size 9
+font_size 8
 #colors
 foreground #000000
 background #D6D3D1

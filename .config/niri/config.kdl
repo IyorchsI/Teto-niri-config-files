@@ -330,6 +330,12 @@ window-rule {
 
 // Open the Firefox picture-in-picture player as floating by default.
 window-rule {
+    exclude app-id="steam" title=r#"^notificationtoasts_\d+_desktop$"#
+    exclude app-id="mako"
+    open-floating false
+}
+
+window-rule {
     geometry-corner-radius 12
     clip-to-geometry true
     opacity 0.95
@@ -380,6 +386,11 @@ window-rule {
         width 2
         active-color "#000000"
     }
+}
+window-rule {
+    match app-id="steam" title=r#"^notificationtoasts_\d+_desktop$"#
+    default-floating-position x=10 y=10 relative-to="bottom-right"
+    open-focused false
 }
 /-window-rule {
     match app-id="discord"
