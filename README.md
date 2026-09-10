@@ -7,7 +7,7 @@ Waybar script: [gentoo waybar wiki](https://wiki.gentoo.org/wiki/Waybar#Applying
 
 # How it looks
 
-[Demo] (https://github.com/IyorchsI/Teto-niri-config-files/tree/main/video/Video.mp4)
+[Demo](https://github.com/IyorchsI/Teto-niri-config-files/tree/main/video/Video.mp4)
 
 ## RyzenAdj 
 
