@@ -5,9 +5,6 @@ Credits (i'll upload the rest later): <br/>
 Cursor: [Kasane Teto Cursor Pack](https://ko-fi.com/s/90a71e1b87) <br/>
 Waybar script: [gentoo waybar wiki](https://wiki.gentoo.org/wiki/Waybar#Applying_configuration_changes) <br/>
 
-# How it looks
-
-[Demo](https://github.com/IyorchsI/Teto-niri-config-files/tree/main/video/Video.mp4)
 
 ## RyzenAdj 
 
