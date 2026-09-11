@@ -106,7 +106,7 @@ output "eDP-1" {
     // automatically.
     //position x=640 y=0
     //position x=2400 y=0
-    position x=1280 y=0
+    position x=0 y=0
 
 }
 
