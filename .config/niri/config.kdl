@@ -137,7 +137,7 @@ layout {
         proportion 0.66667
 
         // Fixed sets the width in logical pixels exactly.
-        fixed 1280
+        //fixed 1280
     }
 
     // You can also customize the heights that "switch-preset-window-height" (Mod+Ctrl+Shift+R) toggles between.
