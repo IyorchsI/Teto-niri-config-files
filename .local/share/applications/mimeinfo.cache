@@ -1,0 +1,8 @@
+[MIME Cache]
+application/microsoftpatch=wine-extension-msp.desktop;
+application/pkix-cert=wine-extension-crt.desktop;
+application/vnd.ms-htmlhelp=wine-extension-chm.desktop;
+application/winhlp=wine-extension-hlp.desktop;
+text/vbscript=wine-extension-vbs.desktop;
+text/x-ms-regedit=wine-extension-reg.desktop;
+x-scheme-handler/discord-733416106123067465=discord-733416106123067465.desktop;
