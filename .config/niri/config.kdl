@@ -357,6 +357,12 @@ window-rule {
     //open-maximized-to-edges true
 }
 window-rule {
+    match app-id="librewolf"
+    open-maximized true
+    //open-floating true
+    //open-maximized-to-edges true
+}
+window-rule {
     match app-id="org.gnome.Nautilus"
     open-maximized true
     //open-floating true
