@@ -38,9 +38,7 @@
     ],
     // Modules configuration
     "hyprland/workspaces": {
-        "format": "{name}",
-        "on-click": "activate",
-        "all-outputs": true
+        "format": "{id}"
     },
     "sway/workspaces": {
          "disable-scroll": true,
