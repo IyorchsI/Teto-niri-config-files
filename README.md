@@ -17,5 +17,5 @@ This is optional because it fixes a strange behavior with the [znver1 mobile](./
 <img width="960" height="540" src="./images/screenshots/sc02.webp" alt="Second niri screenshot" />
 </center>
 <center>
-<img width="960" height="540" src="./images/screenshots/sc01.webp" alt="Third sddm screenshot" />
+<img width="960" height="540" src="./images/screenshots/sc03.webp" alt="Third sddm screenshot" />
 </center>
