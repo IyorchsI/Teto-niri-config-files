@@ -8,3 +8,14 @@ Waybar script: [gentoo waybar wiki](https://wiki.gentoo.org/wiki/Waybar#Applying
 ## RyzenAdj 
 
 This is optional because it fixes a strange behavior with the [znver1 mobile](./etc/systemd/system).
+
+## Screenshots
+<center>
+<img width="960" height="540" src="./images/screenshots/sc01.webp" alt="First niri screenshot" />
+</center>
+<center>
+<img width="960" height="540" src="./images/screenshots/sc02.webp" alt="Second niri screenshot" />
+</center>
+<center>
+<img width="960" height="540" src="./images/screenshots/sc01.webp" alt="Third sddm screenshot" />
+</center>
